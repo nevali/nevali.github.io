@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:air="http://www.daml.org/2001/10/html/airport-ont#"
+   xmlns:contact="http://www.w3.org/2000/10/swap/pim/contact#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+   xmlns:lj="http://www.livejournal.org/rss/lj/1.0/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:wn="http://xmlns.com/wordnet/1.6/"
+   xmlns:ya="http://blogs.yandex.ru/schema/foaf/">
+  <foaf:Document rdf:about="http://neva.li/">
+    <dc:description xml:lang="en-gb">My blog</dc:description>
+    <dc:title xml:lang="en">Tumbled Logic</dc:title>
+  </foaf:Document>
+  <foaf:Person rdf:about="http://neva.li/#me">
+    <rdfs:seeAlso rdf:resource="http://id.bbc.co.uk/users/nevali.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://mystatus.skype.com/nevali.xml"/>
+    <rdfs:seeAlso rdf:resource="http://semantictweet.com/nevali/friends"/>
+    <contact:nearestAirport>
+      <air:Airport>
+        <air:iataCode>GLA</air:iataCode>
+        <air:icaoCode>EGPF</air:icaoCode>
+        <air:name>Glasgow Airport</air:name>
+      </air:Airport>
+    </contact:nearestAirport>
+    <owl:sameAs rdf:resource="http://meta.nevali.net/me#person"/>
+    <owl:sameAs rdf:resource="http://nevali.net/me#person"/>
+    <owl:sameAs rdf:resource="http://www.bbc.co.uk/users/nevali.rdf#me"/>
+    <foaf:aimChatID xml:lang="en-gb">mo.mcroberts@me.com</foaf:aimChatID>
+    <foaf:currentProject rdf:resource="http://thespace.org/"/>
+    <foaf:currentProject>
+      <foaf:Project>
+        <foaf:name xml:lang="en">Digital Public Space</foaf:name>
+        <foaf:page rdf:resource="http://www.bbc.co.uk/blogs/bbcinternet/2011/04/bbc_digital_public_space_proje.html"/>
+        <foaf:page rdf:resource="http://www.bbc.co.uk/blogs/bbcinternet/2011/10/digital_public_space_idea.html"/>
+        <foaf:page rdf:resource="http://www.bbc.co.uk/blogs/bbcinternet/2012/04/digital_public_space_data_guid.html"/>
+      </foaf:Project>
+    </foaf:currentProject>
+    <foaf:firstName xml:lang="en-gb">Mo</foaf:firstName>
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountName xml:lang="en-gb">nevalicori</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.google.com/profiles/nevalicori"/>
+        <foaf:accountServiceHomepage rdf:resource="http://www.google.com"/>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountName xml:lang="en-gb">nevali</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://delicious.com/nevali/"/>
+        <foaf:accountServiceHomepage rdf:resource="http://delicious.com"/>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountName xml:lang="en-gb">nevali</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://github.com/nevali/"/>
+        <foaf:accountServiceHomepage rdf:resource="http://github.com"/>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountName xml:lang="en-gb">nevali</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://flickr.com/photos/nevali/"/>
+        <foaf:accountServiceHomepage rdf:resource="http://flickr.com"/>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountName xml:lang="en-gb">nevali</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://dopplr.com/traveller/nevali/"/>
+        <foaf:accountServiceHomepage rdf:resource="http://dopplr.com"/>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountName xml:lang="en-gb">nevali</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://twitter.com/nevali/"/>
+        <foaf:accountServiceHomepage rdf:resource="http://twitter.com"/>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountName xml:lang="en-gb">nevali</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://uk.linkedin.com/in/nevali/"/>
+        <foaf:accountServiceHomepage rdf:resource="http://www.linkedin.com"/>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountName xml:lang="en-gb">nevali</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.bbc.co.uk/blogs/profile.shtml?userid=2871461"/>
+        <foaf:accountServiceHomepage rdf:resource="http://www.bbc.co.uk"/>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+    <foaf:homepage rdf:resource="http://neva.li/me"/>
+    <foaf:img rdf:resource="http://meta.nevali.net/avatar.jpg"/>
+    <foaf:jabberID xml:lang="en-gb">mo@ilaven.net</foaf:jabberID>
+    <foaf:knows rdf:resource="http://danbri.org/foaf.rdf#danbri"/>
+    <foaf:knows rdf:resource="http://moustaki.org/foaf.rdf#moustaki"/>
+    <foaf:knows rdf:resource="http://swordfish.rdfweb.org/people/libby/rdfweb/webwho.xrdf#me"/>
+    <foaf:knows rdf:resource="http://www.r4isstatic.com/foaf.rdf#r4isstatic"/>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:mbox_sha1sum xml:lang="en-gb">2f4190fbb6879a3c70a8f123b3c1f45cb72dd9db</foaf:mbox_sha1sum>
+        <foaf:mbox_sha1sum xml:lang="en-gb">51c24ff8f7ca2e010eb7d4a0fb8003491112cf47</foaf:mbox_sha1sum>
+        <foaf:name xml:lang="en-gb">Ant Miller</foaf:name>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:mbox_sha1sum xml:lang="en-gb">4f0f9f9e3bb3c29f405bdb90b17ecaef73ccc9da</foaf:mbox_sha1sum>
+        <foaf:name xml:lang="en-gb">Kirsty McRoberts</foaf:name>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:lastName xml:lang="en-gb">McRoberts</foaf:lastName>
+    <foaf:mbox rdf:resource="mailto:mo@nevali.net"/>
+    <foaf:mbox_sha1sum xml:lang="en-gb">0b7582e28bb77765a5b770563b2d3cb8255a48d4</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum xml:lang="en-gb">4e18141afeb3aa43210caa7e418f635e669ddf98</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum xml:lang="en-gb">631c47b2f5beb2ce24ce53ba4912bdc9864fb054</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum xml:lang="en-gb">8806d6bc579009a1f625a990710ffbd2a95c6f83</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum xml:lang="en-gb">acf38628dcbf37f3cff74fe88871b5b7a247337b</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum xml:lang="en-gb">be63866529671cb72e77f926552a4d0b545d992e</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum xml:lang="en-gb">f7f2b8a5de558955e615ac532b3039053f39d5c1</foaf:mbox_sha1sum>
+    <foaf:name xml:lang="en-gb">Mo McRoberts</foaf:name>
+    <foaf:nick xml:lang="en-gb">nevali</foaf:nick>
+    <foaf:openid rdf:resource="http://nevali.net/"/>
+    <foaf:page rdf:resource="http://neva.li/"/>
+    <foaf:page rdf:resource="http://neva.li/me"/>
+    <foaf:pastProject>
+      <foaf:Project>
+        <foaf:homepage rdf:resource="http://projectbaird.com/"/>
+        <foaf:name xml:lang="en">Project Baird</foaf:name>
+      </foaf:Project>
+    </foaf:pastProject>
+    <foaf:pubkeyAddress rdf:resource="http://nevali.net/become.asc"/>
+    <foaf:pubkeyAddress rdf:resource="http://nevali.net/nevali.asc"/>
+    <foaf:pubkeyAddress rdf:resource="http://nevali.net/nexgenta.asc"/>
+    <foaf:pubkeyAddress rdf:resource="http://nevali.net/toybox.asc"/>
+    <foaf:skypeID xml:lang="en-gb">nevali</foaf:skypeID>
+    <foaf:weblog rdf:resource="http://neva.li/"/>
+  </foaf:Person>
+  <foaf:PersonalProfileDocument rdf:about="http://neva.li/index.rdf">
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-08-22T14:55:03Z</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-25T15:35:12Z</dct:modified>
+    <rdfs:label>Description of the person Mo McRoberts</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://neva.li/#me"/>
+  </foaf:PersonalProfileDocument>
+  <foaf:Document rdf:about="http://neva.li/me">
+    <dc:description xml:lang="en-gb">A short bio</dc:description>
+    <dc:title xml:lang="en">About me</dc:title>
+  </foaf:Document>
+  <foaf:Project rdf:about="http://thespace.org/">
+    <foaf:homepage rdf:resource="http://thespace.org/"/>
+    <foaf:name xml:lang="en">The Space</foaf:name>
+  </foaf:Project>
+</rdf:RDF>

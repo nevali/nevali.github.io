@@ -1,0 +1,123 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ya: <http://blogs.yandex.ru/schema/foaf/> .
+@prefix lj: <http://www.livejournal.org/rss/lj/1.0/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix contact: <http://www.w3.org/2000/10/swap/pim/contact#> .
+@prefix wn: <http://xmlns.com/wordnet/1.6/> .
+@prefix air: <http://www.daml.org/2001/10/html/airport-ont#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://neva.li/>
+    dc:description "My blog"@en-gb ;
+    dc:title "Tumbled Logic"@en ;
+    a foaf:Document .
+
+<http://neva.li/#me>
+    a foaf:Person ;
+    rdfs:seeAlso <http://id.bbc.co.uk/users/nevali.rdf>, <http://mystatus.skype.com/nevali.xml>, <http://semantictweet.com/nevali/friends> ;
+    contact:nearestAirport [
+        air:iataCode "GLA" ;
+        air:icaoCode "EGPF" ;
+        air:name "Glasgow Airport" ;
+        a air:Airport
+    ] ;
+    owl:sameAs <http://meta.nevali.net/me#person>, <http://nevali.net/me#person>, <http://www.bbc.co.uk/users/nevali.rdf#me> ;
+    foaf:aimChatID "mo.mcroberts@me.com"@en-gb ;
+    foaf:currentProject <http://thespace.org/>, [
+        a foaf:Project ;
+        foaf:name "Digital Public Space"@en ;
+        foaf:page <http://www.bbc.co.uk/blogs/bbcinternet/2011/04/bbc_digital_public_space_proje.html>, <http://www.bbc.co.uk/blogs/bbcinternet/2011/10/digital_public_space_idea.html>, <http://www.bbc.co.uk/blogs/bbcinternet/2012/04/digital_public_space_data_guid.html>
+    ] ;
+    foaf:firstName "Mo"@en-gb ;
+    foaf:holdsAccount [
+        a foaf:OnlineAccount ;
+        foaf:accountName "nevali"@en-gb ;
+        foaf:accountProfilePage <http://delicious.com/nevali/> ;
+        foaf:accountServiceHomepage <http://delicious.com>
+    ], [
+        a foaf:OnlineAccount ;
+        foaf:accountName "nevali"@en-gb ;
+        foaf:accountProfilePage <http://github.com/nevali/> ;
+        foaf:accountServiceHomepage <http://github.com>
+    ], [
+        a foaf:OnlineAccount ;
+        foaf:accountName "nevali"@en-gb ;
+        foaf:accountProfilePage <http://flickr.com/photos/nevali/> ;
+        foaf:accountServiceHomepage <http://flickr.com>
+    ], [
+        a foaf:OnlineAccount ;
+        foaf:accountName "nevali"@en-gb ;
+        foaf:accountProfilePage <http://dopplr.com/traveller/nevali/> ;
+        foaf:accountServiceHomepage <http://dopplr.com>
+    ], [
+        a foaf:OnlineAccount ;
+        foaf:accountName "nevali"@en-gb ;
+        foaf:accountProfilePage <http://twitter.com/nevali/> ;
+        foaf:accountServiceHomepage <http://twitter.com>
+    ], [
+        a foaf:OnlineAccount ;
+        foaf:accountName "nevali"@en-gb ;
+        foaf:accountProfilePage <http://uk.linkedin.com/in/nevali/> ;
+        foaf:accountServiceHomepage <http://www.linkedin.com>
+    ], [
+        a foaf:OnlineAccount ;
+        foaf:accountName "nevali"@en-gb ;
+        foaf:accountProfilePage <http://www.bbc.co.uk/blogs/profile.shtml?userid=2871461> ;
+        foaf:accountServiceHomepage <http://www.bbc.co.uk>
+    ], [
+        a foaf:OnlineAccount ;
+        foaf:accountName "nevalicori"@en-gb ;
+        foaf:accountProfilePage <http://www.google.com/profiles/nevalicori> ;
+        foaf:accountServiceHomepage <http://www.google.com>
+    ] ;
+    foaf:homepage <http://neva.li/me> ;
+    foaf:img <http://meta.nevali.net/avatar.jpg> ;
+    foaf:jabberID "mo@ilaven.net"@en-gb ;
+    foaf:knows <http://danbri.org/foaf.rdf#danbri>, <http://moustaki.org/foaf.rdf#moustaki>, <http://swordfish.rdfweb.org/people/libby/rdfweb/webwho.xrdf#me>, <http://www.r4isstatic.com/foaf.rdf#r4isstatic>, [
+        a foaf:Person ;
+        foaf:mbox_sha1sum "2f4190fbb6879a3c70a8f123b3c1f45cb72dd9db"@en-gb, "51c24ff8f7ca2e010eb7d4a0fb8003491112cf47"@en-gb ;
+        foaf:name "Ant Miller"@en-gb
+    ], [
+        a foaf:Person ;
+        foaf:mbox_sha1sum "4f0f9f9e3bb3c29f405bdb90b17ecaef73ccc9da"@en-gb ;
+        foaf:name "Kirsty McRoberts"@en-gb
+    ] ;
+    foaf:lastName "McRoberts"@en-gb ;
+    foaf:mbox <mailto:mo@nevali.net> ;
+    foaf:mbox_sha1sum "0b7582e28bb77765a5b770563b2d3cb8255a48d4"@en-gb, "4e18141afeb3aa43210caa7e418f635e669ddf98"@en-gb, "631c47b2f5beb2ce24ce53ba4912bdc9864fb054"@en-gb, "8806d6bc579009a1f625a990710ffbd2a95c6f83"@en-gb, "acf38628dcbf37f3cff74fe88871b5b7a247337b"@en-gb, "be63866529671cb72e77f926552a4d0b545d992e"@en-gb, "f7f2b8a5de558955e615ac532b3039053f39d5c1"@en-gb ;
+    foaf:name "Mo McRoberts"@en-gb ;
+    foaf:nick "nevali"@en-gb ;
+    foaf:openid <http://nevali.net/> ;
+    foaf:page <http://neva.li/>, <http://neva.li/me> ;
+    foaf:pastProject [
+        a foaf:Project ;
+        foaf:homepage <http://projectbaird.com/> ;
+        foaf:name "Project Baird"@en
+    ] ;
+    foaf:pubkeyAddress <http://nevali.net/become.asc>, <http://nevali.net/nevali.asc>, <http://nevali.net/nexgenta.asc>, <http://nevali.net/toybox.asc> ;
+    foaf:skypeID "nevali"@en-gb ;
+    foaf:weblog <http://neva.li/> .
+
+<http://neva.li/index.rdf>
+    dct:created "2010-08-22T14:55:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dct:modified "2010-11-25T15:35:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    a foaf:PersonalProfileDocument ;
+    rdfs:label "Description of the person Mo McRoberts" ;
+    foaf:primaryTopic <http://neva.li/#me> .
+
+<http://neva.li/me>
+    dc:description "A short bio"@en-gb ;
+    dc:title "About me"@en ;
+    a foaf:Document .
+
+<http://thespace.org/>
+    a foaf:Project ;
+    foaf:homepage <http://thespace.org/> ;
+    foaf:name "The Space"@en .
+
+
+
