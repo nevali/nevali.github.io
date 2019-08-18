@@ -33,15 +33,22 @@ main > section, #frontmatter > section {
 	clear: both;
 	margin-top: 2em;
 }
-main p {
+main p, main dt, main dd {
 	max-width: 60em;
 	line-height: 1.4;
+	margin-bottom: 1em;
+}
+main dt {
+	font-weight: normal;
 }
 main > section > h1, #frontmatter > section > h1 {
 	font-weight: lighter;
 	font-size: 24px;
 	margin: 0.5em 0;
 	color: #000;
+}
+main > section > section > h1 {
+	font-weight: normal;
 }
 header {
 	padding-right: 156px;
