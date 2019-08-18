@@ -86,7 +86,7 @@ section.project {
 	margin: 0 32px 8px 0;
 }
 
-section.experience {
+section.experience, section.refer>section {
 	padding-left: 156px;
 	min-height: 128px;
 	margin-left: 0;
@@ -231,4 +231,20 @@ span.logo {
 
 main > pre {
 	font-size: 120%;
+}
+
+section.refer>section#monzo {
+	background-image: url('refer/monzo256.png');
+}
+section.refer>section#transferwise {
+	background-image: url('refer/transferwise256.png');
+}
+section.refer>section#curve {
+	background-image: url('refer/curve256.png');
+}
+section.refer>section#chipolo {
+	background-image: url('refer/chipolo256.png');
+}
+section.refer>section#beardedcolonel {
+	background-image: url('refer/beardedcolonel256.png');
 }
