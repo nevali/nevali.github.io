@@ -251,3 +251,14 @@ section.refer>section#chipolo {
 section.refer>section#beardedcolonel {
 	background-image: url('refer/beardedcolonel256.png');
 }
+
+section.home>ul {
+	list-style: none;
+}
+section.home>ul>li {
+	line-height: 1.75em;
+}
+section.home>ul>li>.fa {
+	min-width: 1em;
+	margin-right: 0.75em;
+}
