@@ -22,7 +22,10 @@ main > h1, header > h1 {
 	border-bottom: solid #e0e0e0 1px;
 	color: #000;
 }
-
+body>header>h1 {
+	font-weight: normal !important;
+	color: #000 !important;
+}
 main > h2, header > h2 {
 	font-weight: lighter;
 	font-size: 14px;
