@@ -225,9 +225,20 @@ span.logo {
 	section.experience {
 		background-image: none !important;
 		min-height: 0;
-		padding-left: inherit !important;		
+		padding-left: inherit !important;
 	}
-
+	
+	section.refer>section {
+		background-size: 64px 64px;
+		background-position: 100% 16px;
+		padding-left: inherit !important;
+	}
+	section.refer>section>h1 {
+		padding-right: 80px;
+		min-height: 64px;
+		margin-top: 0;
+		vertical-align: top;
+	}
 }
 @media screen and (min-width: 30em) {
 	body {
