@@ -272,6 +272,9 @@ section.refer>section#beardedcolonel {
 section.refer>section#milanote {
 	background-image: url('refer/milanote256.png');
 }
+section.refer>section#duolingo {
+	background-image: url('refer/duolingo256.png');
+}
 
 section.home>ul>li {
 	line-height: 1.75em;
