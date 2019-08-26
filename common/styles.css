@@ -1,3 +1,8 @@
+html, body {
+	background: #fff;
+	color: #888;
+}
+
 a:link, a:visited {
 	color: inherit;
 }
@@ -10,7 +15,6 @@ body {
 	font-family: 'Assistant', sans-serif;
 	font-weight: lighter;
 	margin: 1em 4em;
-	color: #888;
 	text-rendering: optimizeSpeed;
 }
 
@@ -24,7 +28,7 @@ main > h1, header > h1 {
 }
 body>header>h1 {
 	font-weight: normal !important;
-	color: #000 !important;
+	color: #000;
 }
 main > h2, header > h2 {
 	font-weight: lighter;
@@ -264,6 +268,9 @@ section.refer>section#chipolo {
 }
 section.refer>section#beardedcolonel {
 	background-image: url('refer/beardedcolonel256.png');
+}
+section.refer>section#milanote {
+	background-image: url('refer/milanote256.png');
 }
 
 section.home>ul>li {
