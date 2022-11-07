@@ -1,0 +1,16 @@
+URI: index
+
+Content-language: en-GB
+Content-type: text/html
+URI: index.en.html
+
+Content-language: de-DE
+Content-type: text/html
+URI: index.de.html
+
+Content-type: text/turtle
+URI: index.ttl
+
+Content-type: application/rdf+xml
+URI: index.var
+
