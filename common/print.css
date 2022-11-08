@@ -36,3 +36,4 @@ section#contact {
 	position: static;
 	max-width: inherit;
 }
+body>header>p.sprachen { display: none; }

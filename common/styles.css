@@ -29,6 +29,21 @@ main > h1, header > h1 {
 body>header>h1 {
 	font-weight: normal !important;
 	color: #000;
+	border-bottom: none;
+	display: inline;
+	padding: 0 1em 0 0;
+	margin-bottom: 12px;
+}
+body>header>h2 {
+	display: inline;
+	padding: 0 0 0 0;
+	margin-bottom: 12px;
+}
+header>p.sprachen {
+	border-top: solid #e0e0e0 1px;
+	font-weight: lighter;
+	font-size: 12px;
+	padding: 0.5em 0 0 0;
 }
 main > h2, header > h2 {
 	font-weight: lighter;
